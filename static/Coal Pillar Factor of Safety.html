@@ -8,14 +8,14 @@
 :root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1b;--mute:#6b6a64;--line:#d9d6cc;--pillar:#fff200;--accent:#1f4e8c;--ok:#1b7f4b;--warn:#b7791f;--bad:#c0392b;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16171a;--card:#1f2125;--ink:#ecebe6;--mute:#9a988f;--line:#34363b;--pillar:#723804;--accent:#7fb2ff;--ok:#4cc38a;--warn:#e0b04a;--bad:#ff7b6b}}
-:root[data-theme="dark"]{--bg:#16171a;--card:#1f2125;--ink:#ecebe6;--mute:#9a988f;--line:#34363b;--pillar:#e6d800;--accent:#7fb2ff;--ok:#4cc38a;--warn:#e0b04a;--bad:#ff7b6b}
+:root[data-theme="dark"]{--bg:#16171a;--card:#1f2125;--ink:#ecebe6;--mute:#9a988f;--line:#34363b;--pillar:#723804;--accent:#7fb2ff;--ok:#4cc38a;--warn:#e0b04a;--bad:#ff7b6b}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.4}
-header{padding:20px 20px 4px;max-width:1100px;margin:auto}
+header{padding:20px 20px 4px;max-width:1400px;margin:auto}
 h1{font-size:1.4rem;margin:0}
 header p{margin:4px 0 0;color:var(--mute);font-size:.9rem}
-main{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:16px;max-width:1100px;margin:auto;padding:16px 20px 28px}
+main{display:grid;grid-template-columns:minmax(0,2.2fr) minmax(280px,1fr);gap:16px;max-width:1400px;margin:auto;padding:16px 20px 28px}
 @media(max-width:820px){main{grid-template-columns:1fr}}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
 h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin:0 0 10px}
@@ -45,7 +45,7 @@ svg text{font-family:system-ui,sans-serif}
 <main>
   <section class="card">
     <h2>Pillar layout</h2>
-    <svg id="svg" viewBox="-110 -90 250 150" aria-label="Pillar layout"></svg>
+    <svg id="svg" viewBox="-80 -54 175 96" aria-label="Pillar layout"></svg>
     <p class="hint">Drag right edges (a1), bottom edges (a2), or the gap edges (b1, b2).</p>
   </section>
   <div class="side">
