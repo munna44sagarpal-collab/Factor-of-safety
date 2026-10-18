@@ -9,5 +9,5 @@ st.set_page_config(
     layout="wide",
 )
 
-html = (Path(__file__).parent / "static" / "pillars.html").read_text(encoding="utf-8")
+html = (Path(__file__).parent / "static" / "Coal Pillar Factor of Safety.html").read_text(encoding="utf-8")
 components.html(html, height=900, scrolling=True)
