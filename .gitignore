@@ -1,0 +1,90 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+venv/
+ENV/
+env/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+
+# Node (in case the project uses frontend tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# SASS / Compass
+.sass-cache/
+
+# Logs
+*.log
+
+# Assets
+*.cache
+*.tmp
+
+# Certificates
+*.pem
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# JetBrains IDE
+out/
+
+# Mac files
+.AppleDouble
+.LSOverride
+
+# Coverage and reports
+coverage/
+reports/
+
+# Local environment variables file
+.env.local
+.env.*.local
+
+# Ignore built HTML/site output (if any static-site build is added)
+_build/
+site/
+public/
+
+# Allow list (example) - keep repository README and other tracked files
+!README.md
