@@ -1,0 +1,8 @@
+# Project Python dependencies
+matplotlib>=3.5
+numpy>=1.23
+
+# Optional: GUI backend for matplotlib. pillars.py uses QtAgg by default — install one of these if you need the GUI backend.
+# PyQt5 provides the Qt backend:
+PyQt5>=5.15
+# Tkinter (for the TkAgg backend) is typically included with the system Python (no pip package).
